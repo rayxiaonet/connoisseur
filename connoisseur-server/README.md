@@ -44,7 +44,7 @@ $ mongo
 > db.restaurants.drop();
 > exit
 ```
-
+<!---
 # How to run (via AWS):
 ```
 $ ssh -i mongo.pem mms-user@con-0.connoisseurteam.2753.mongodbdns.com
@@ -91,3 +91,4 @@ $ ssh -i connoisseurKeyPair.pem ec2-user@ec2-52-11-254-37.us-west-2.compute.amaz
 $ screen (creates a terminal session that won't close when ssh closes)
 $ nodemon start
 ```
+-->
